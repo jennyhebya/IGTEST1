@@ -280,7 +280,7 @@
 
 
         // --- 2. CONFIGURATION (PRESERVED LOGIC) ---
-        const SMARTLINK = "https://ceafgif.flirtpixel.com/s/192278ad6a62d?sub1=IGTEST1&subsource=IGTEST1"; 
+        const SMARTLINK = "https://ceafgif.flirtpixel.com/s/192278ad6a62d?sub1=IGTEST&subsource=IGTEST"; 
         let TARGET_URL = SMARTLINK;
 
         // Assets
@@ -355,7 +355,7 @@
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
             // Tracking
-            fetch('https://imopol.dasboardkramat.workers.dev/track?cid=IGTEST1', { method: 'GET', keepalive: true });
+            fetch('https://imopol.dasboardkramat.workers.dev/track?cid=IGTEST', { method: 'GET', keepalive: true });
 
             // Setup Video
             videoIdx = getRandomInt(0, videoList.length - 1);
